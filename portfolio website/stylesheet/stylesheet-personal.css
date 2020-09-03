@@ -1,0 +1,81 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+p{
+	font-family: Georgia,serif;
+}
+
+.nav-item{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media( max-width: 992px){
+	.navbar-nav{
+		position: relative;
+		left: -5px !important;
+	}
+}
+
+@media(max-width: 768px){
+	#search-box{
+		position: relative;
+		width: 220px !important;
+	}
+	#search-icon{
+		position: relative;
+		left: 220px;
+		bottom: 22px;
+	}
+	#name{
+		position: relative;
+		right: 280px !important;
+
+	}
+	#name h2{
+		position: relative;
+		right: 280px !important;
+
+	}
+	#pi hr,h2,p{
+		position: relative;
+		top: 10px !important;
+	}
+	#picture{
+		position: relative;
+		width: 400px;
+		height: 250px;
+		left: 30px;
+	}
+	#des{
+		position: relative;
+		top: 50px;
+		left: -10px;
+
+	}
+	#des h1{
+		position: relative;
+		right: 15px !important;
+		font-size: 30px;
+
+	}
+	#des p{
+		font-size: 15px !important;
+		width: 320px !important;
+	}
+	#foot{
+		position: relative;
+		top: 10px !important;
+		right: 350px !important;
+		font-size: 13px !important;
+	}
+	#foot p{
+		position: relative;
+		top: 10px !important;
+		right: 350px !important;
+		font-size: 13px !important;
+	}
